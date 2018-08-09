@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "zan-search": "../../../dist/search/index"
+  }
+}

@@ -1,0 +1,106 @@
+
+<zan-search
+  placeholder="搜索..."
+  keyword="{{ inputValue }}"
+  placeholder="地标/景点/关键字"
+  focus="{{ focus }}"
+  bindchange="searchChange"
+  bindsearch="searchDone"  
+  useCancel="bindsearch"
+  bindsubmit='searchSubmitFn'
+  confirm-type="search"
+/>
+
+<view class='searcha'>
+  <view wx:for="{{hosList}}" wx:for-item="h">
+    <view wx:if="{{h.show}}">
+    <navigator url="../../../pages/index/subpage/subpage">
+    <text>{{h.name}}\n</text>
+    <text class='searchb'>{{jname}}</text>
+    </navigator>
+    </view>
+  </view>
+</view>
+
+<view class='hr1'></view>  
+
+<view class='history'>
+  <text class='history1'>搜索历史</text>
+  <text class="dump" bindtap="clearSearchLog">清除</text>
+</view>
+
+
+  <view class='font1'>
+    <text>猜你喜欢</text>
+  </view>
+
+<view class='flex-test'>
+    <navigator url="../../../pages/index/subpage/subpage">
+      <view class='a' data-text="长隆旅游度假区"bindtap='pressView'>{{message}}</view>
+    </navigator>
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='b' data-text="广州长隆旅行度假村"  bindtap='pressView'>{{messagea}}</view>
+    </navigator>   
+</view>
+
+<view class='flex-test1'>
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='c' data-text="长隆野生动物世界"  bindtap='pressView'>长隆野生动物世界</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='d' data-text="广州塔"  bindtap='pressView'>广州塔</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='e' data-text="长隆欢乐世界"  bindtap='pressView'>长隆欢乐世界</view>
+    </navigator>
+</view>
+
+<view class='flex-test2'>
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='f' data-text="南沙"  bindtap='pressView'>南沙</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='g' data-text="北京路"  bindtap='pressView'>北京路</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='h' data-text="海珠广场"  bindtap='pressView'>海珠广场</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='i' data-text="大学城"  bindtap='pressView'>大学城</view>
+    </navigator>
+</view>
+
+<view class='flex-test3'>
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='j' data-text="广州国际体育演艺中心"  bindtap='pressView'>广州国际体育演艺中心</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='k' data-text="公寓"  bindtap='pressView'>公寓</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='l' data-text="客栈"  bindtap='pressView'>客栈</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='n' data-text="广州东站"  bindtap='pressView'>广州东站</view>
+    </navigator>
+</view>
+
+<view class='flex-test4'>
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='m' data-text="江景房"  bindtap='pressView'>江景房</view>
+    </navigator>
+
+    <navigator url='../../../pages/index/subpage/subpage'>
+      <view class='o' data-text="海景房"  bindtap='pressView'>海景房</view>
+    </navigator>
+</view>
+
+

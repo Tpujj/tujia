@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "涂家",
+  "usingComponents": {
+    "zan-search": "../../../dist/search/index"
+  }
+}

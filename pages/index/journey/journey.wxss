@@ -1,0 +1,171 @@
+
+.searcha{
+  height: 100%;
+  font-size: 29rpx;
+  line-height: 50rpx;
+  padding-left: 30rpx;
+}
+.searcha image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.searchb{
+  font-size: 26rpx;
+}
+.hr1{
+  width: 100%;
+  height: 2rpx;
+  background: #e9e9e9;
+}
+.history{
+  width: auto;
+  height: 120rpx;
+  display: none;
+}
+.history1{
+  font-size: 30rpx;
+  color: #a7a7a7;
+  padding-left: 35rpx;
+}
+.dump{
+  font-size: 30rpx;
+  color: rgb(56, 45, 45);
+  padding-left: 500rpx;
+}
+.font1{
+  width: 50%;
+  height:50tpx;
+  padding: 35rpx;
+}
+.font1 text{
+  font-size: 30rpx;
+  color:#a7a7a7;
+}
+
+.flex-test{
+  display: -webkit-flex;
+}
+.flex-test view{
+  margin-left: 35rpx;
+  font-size: 25rpx;
+  color: #4d4949;
+  text-align: center;
+  height: 60rpx;
+  line-height: 59rpx;
+
+}
+.a{
+  width: 240rpx;
+  background-color:  #f3f6f8;
+}
+.b{
+  width: 280rpx;
+  background-color:  #f3f6f8;
+}
+
+.flex-test1{
+  display: -webkit-flex;
+
+}
+.flex-test1 view{
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: #4d4949;
+  text-align: center;
+  height: 60rpx;
+  line-height: 59rpx;
+}
+.c{
+  width: 290rpx;
+  background-color:  #f3f6f8;
+}
+.d{
+  width: 100rpx;
+  background-color:  #f3f6f8;
+}
+.e{
+  width: 190rpx;
+  background-color:  #f3f6f8;
+}
+.flex-test2{
+  display: -webkit-flex;
+
+}
+.flex-test2 view{
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: #4d4949;
+  text-align: center;
+  height: 60rpx;
+  line-height: 59rpx;
+}
+.f{
+  width: 80rpx;
+  background-color:  #f3f6f8;
+}
+.g{
+  width: 100rpx;
+  background-color:  #f3f6f8;
+}
+.h{
+  width: 160rpx;
+  background-color:  #f3f6f8;
+}
+.i{
+  width: 100rpx;
+  background-color:  #f3f6f8;
+}
+.flex-test3{
+  display: -webkit-flex;
+
+}
+.flex-test3 view{
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: #4d4949;
+  text-align: center;
+  height: 60rpx;
+  line-height: 59rpx;
+}
+.j{
+  width: 300rpx;
+  background-color:  #f3f6f8;
+}
+.k{
+  width: 80rpx;
+  background-color:  #f3f6f8;
+}
+.l{
+  width: 80rpx;
+  background-color:  #f3f6f8;
+}
+.n{
+  width: 120rpx;
+  background-color:  #f3f6f8;
+}
+.flex-test4{
+  display: -webkit-flex;
+
+}
+.flex-test4 view{
+  margin-left: 35rpx;
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  color: #4d4949;
+  text-align: center;
+  height: 60rpx;
+  line-height: 59rpx;
+}
+.m{
+  width: 120rpx;
+  background-color:  #f3f6f8;
+}
+.o{
+  width: 120rpx;
+  background-color:  #f3f6f8;
+}
+
+

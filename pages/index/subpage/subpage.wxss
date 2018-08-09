@@ -1,0 +1,7 @@
+/* pages/index/subpage/subpage.wxss */
+.slide-image{
+  width: 100%;
+}
+.aab{
+  height: 200rpx;
+}
